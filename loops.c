@@ -2,11 +2,10 @@
     
 int main (void)
 {
-    int i = 0;
-    while (i < 7)
+    for ( int i = 0; i <= 10; i++)
     {
-        printf("loops\n");
-        i++;
+        printf("%i\n", i);
+
     }
     return 0;
 }
